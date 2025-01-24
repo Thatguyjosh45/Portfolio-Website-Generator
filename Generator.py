@@ -212,12 +212,12 @@ def generate_portfolio(name, about, skills, projects, output_dir="portfolio"):
 # Example usage
 if __name__ == "__main__":
     name = "John doe"
-    about = "Hey! I'm John, a high school student passionate about software development and UX design."
+    about = "Hey! I'm John, a full stack dev at microsoft, passionate about software development and UX design."
     skills = ["python", "html5", "javascript", "css3-alt", "figma", "java"]
     projects = [
-        {"name": "Floppy Fish", "link": "https://github.com/stephanieran/floppy-fish", "description": "Floppy Fish is a spinoff of Flappy Bird built in Java."},
-        {"name": "Circles", "link": "https://github.com/stephanieran/circles", "description": "A photo sharing app with daily prompts."},
-        {"name": "Github Issues", "link": "https://github.com/stephanieran/github-issues", "description": "An iOS app to streamline GitHub Issues access."}
+        {"name": "project name", "link": "link to project", "description": "description of prject"},
+        {"name": "project name", "link": "link to project", "description": "description of prject"},
+        {"name": "project name", "link": "link to project", "description": "description of prject"}
     ]
 
     generate_portfolio(name, about, skills, projects)
